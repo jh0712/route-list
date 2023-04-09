@@ -6,7 +6,7 @@ use Illuminate\Console\Command;
 use Route;
 use Closure;
 use Illuminate\Support\Facades\DB;
-use RouteList\Models\RouteList;
+use Lkh\RouteList\Models\RouteList;
 class GetRouteList extends Command
 {
     /**
