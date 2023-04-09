@@ -19,9 +19,10 @@ Publishing complete.
 ```
 
 ## start use it 
-Create db table
+Create db table & load config
 ```
 php artisan migrate
+php artisan config:ca
 ```
 Run command 
 ```
