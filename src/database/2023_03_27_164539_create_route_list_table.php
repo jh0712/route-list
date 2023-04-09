@@ -14,7 +14,7 @@ class CreateRouteListTable extends Migration
     public function up()
     {
         Schema::create('route_list', function (Blueprint $table) {
-            $table->id();
+            $table->bigIncrements('id');
             $table->timestamps();
             $table->string('methods')->default(null)->nullable();
             $table->string('domain')->default(null)->nullable();
