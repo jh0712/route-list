@@ -28,7 +28,7 @@
 <div class="container">
     <h1>Route List</h1>
     <div class="row">
-    @include('routelist:: datatable',[
+    @include('routelist::datatable',[
         'columns' => $columns,
         'ajaxUrl' => $ajaxUrl,
         'pageLengthOptions'=> $pageLengthOptions,
