@@ -3,7 +3,8 @@ Route List
 這個專案主要目標是想讓route的管理更加輕鬆
 
 The purpose of this project is to easier manage all routes.
-#Installation(安裝)
+
+# Installation(安裝)
 使用下列指令安裝
 
 To install through Composer, by run the following command:
@@ -20,6 +21,7 @@ php artisan vendor:publish --provider="Lkh\RouteList\RouteListServiceProvider"
 ```
 
 result(執行結果)
+
 ```bash
 Copied File [/vendor/lkh/route-list/src/config/config.php] To [/config/routelist.php]
 Publishing complete.
@@ -42,7 +44,7 @@ php artisan route:get-route-list
 go to url : /route-view
 
 ## config setting (config 設定)
-```php
+```
 return [
     /**
      * The routes to hide with regular expression.
@@ -99,4 +101,4 @@ composer self-update --2
 ```
 
 
-### hope you enjoy.
+### hope you enjoy :)
